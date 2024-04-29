@@ -10,7 +10,7 @@ import { StatusBar } from "react-native";
 import auth from "@react-native-firebase/auth";
 import { useColorScheme } from "nativewind";
 
-import type { User } from "@pawrty/db";
+import type { User } from "@acme/db";
 
 import { SplashScreen } from "~/components";
 import { AuthProvider } from "~/providers";

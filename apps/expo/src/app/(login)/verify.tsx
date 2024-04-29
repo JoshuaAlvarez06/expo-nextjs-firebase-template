@@ -10,8 +10,8 @@ import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Formik } from "formik";
 import { toFormikValidationSchema } from "zod-formik-adapter";
 
-import type { VerifySchema } from "@pawrty/validation";
-import { verifySchema } from "@pawrty/validation";
+import type { VerifySchema } from "@acme/validation";
+import { verifySchema } from "@acme/validation";
 
 import Logo from "~/assets/icons/logo.svg";
 import { Form, HeaderBackButton, SubmitButton, TextField } from "~/components";

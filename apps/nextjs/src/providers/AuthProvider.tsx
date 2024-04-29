@@ -1,7 +1,7 @@
 "use client";
 
 /* eslint-disable @typescript-eslint/no-misused-promises */
-import type { User } from "@pawrty/db";
+import type { User } from "@acme/db";
 import { createContext, useEffect, useState } from "react";
 import nookies from "nookies";
 

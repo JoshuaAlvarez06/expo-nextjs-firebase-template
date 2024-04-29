@@ -1,5 +1,5 @@
 {
-  "name": "@pawrty/ui",
+  "name": "@acme/ui",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -34,10 +34,10 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@pawrty/eslint-config": "workspace:*",
-    "@pawrty/prettier-config": "workspace:*",
-    "@pawrty/tailwind-config": "workspace:*",
-    "@pawrty/tsconfig": "workspace:*",
+    "@acme/eslint-config": "workspace:*",
+    "@acme/prettier-config": "workspace:*",
+    "@acme/tailwind-config": "workspace:*",
+    "@acme/tsconfig": "workspace:*",
     "@types/react": "^18.2.69",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
@@ -52,9 +52,9 @@
   },
   "eslintConfig": {
     "extends": [
-      "@pawrty/eslint-config/base",
-      "@pawrty/eslint-config/react"
+      "@acme/eslint-config/base",
+      "@acme/eslint-config/react"
     ]
   },
-  "prettier": "@pawrty/prettier-config"
+  "prettier": "@acme/prettier-config"
 }

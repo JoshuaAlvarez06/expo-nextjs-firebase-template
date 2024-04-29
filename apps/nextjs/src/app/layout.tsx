@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { cn } from "@pawrty/ui";
-import { ThemeProvider, ThemeToggle } from "@pawrty/ui/theme";
-import { Toaster } from "@pawrty/ui/toast";
+import { cn } from "@acme/ui";
+import { ThemeProvider, ThemeToggle } from "@acme/ui/theme";
+import { Toaster } from "@acme/ui/toast";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 
@@ -14,16 +14,16 @@ import { AuthProvider } from "~/providers";
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.VERCEL_ENV === "production"
-      ? "https://pawrty.app"
+      ? "https://acme.app"
       : "http://localhost:3000",
   ),
-  title: "Pawrty",
-  description: "Pawrty is a social media platform for pets.",
+  title: "Acme",
+  description: "Acme is a social media platform for pets.",
   openGraph: {
-    title: "Pawrty",
-    description: "Pawrty is a social media platform for pets.",
-    url: "https://pawrty.app",
-    siteName: "Pawrty",
+    title: "Acme",
+    description: "Acme is a social media platform for pets.",
+    url: "https://acme.app",
+    siteName: "Acme",
   },
 };
 

@@ -119,7 +119,7 @@ export default function Index() {
       {/* Changes page title visible on the header */}
       <View className="h-full w-full bg-background p-4" style={{ flex: 1 }}>
         <Text className="pb-2 text-center text-5xl font-bold text-primary">
-          Pawrty {user?.id}
+          Acme {user?.id}
         </Text>
 
         <Pressable

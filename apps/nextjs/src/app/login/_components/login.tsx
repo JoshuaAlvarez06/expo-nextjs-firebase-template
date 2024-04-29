@@ -38,7 +38,7 @@ export function Login() {
     <>
       <div className="flex h-screen w-screen items-center justify-center overflow-hidden">
         <div className="login-box flex flex-col items-center gap-4">
-          <h1 className="text-center text-3xl font-bold text-primary">Pawrty</h1>
+          <h1 className="text-center text-3xl font-bold text-primary">Acme</h1>
           <div id="firebaseui-auth-container" />
         </div>
       </div>

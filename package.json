@@ -1,5 +1,5 @@
 {
-  "name": "pawrty",
+  "name": "acme",
   "private": true,
   "engines": {
     "node": ">=20.11.0"
@@ -22,11 +22,11 @@
     "typecheck": "turbo typecheck"
   },
   "devDependencies": {
-    "@pawrty/prettier-config": "workspace:*",
+    "@acme/prettier-config": "workspace:*",
     "@turbo/gen": "^1.13.0",
     "prettier": "^3.2.5",
     "turbo": "^1.13.0",
     "typescript": "^5.4.3"
   },
-  "prettier": "@pawrty/prettier-config"
+  "prettier": "@acme/prettier-config"
 }

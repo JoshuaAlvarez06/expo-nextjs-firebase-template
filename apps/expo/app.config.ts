@@ -2,9 +2,9 @@ import type { ConfigContext, ExpoConfig } from "expo/config";
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: "Pawrty",
-  slug: "pawrty",
-  scheme: "pawrty",
+  name: "Acme",
+  slug: "acme",
+  scheme: "acme",
   version: "0.1.0",
   orientation: "portrait",
   icon: "./src/assets/icons/logo-black.png",
@@ -15,12 +15,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   assetBundlePatterns: ["**/*"],
   ios: {
     googleServicesFile: "./GoogleService-Info.plist",
-    bundleIdentifier: "app.pawrty.solydapp",
+    bundleIdentifier: "app.acme.solydapp",
     supportsTablet: true,
   },
   android: {
     googleServicesFile: "./google-services.json",
-    package: "app.pawrty.solydapp",
+    package: "app.acme.solydapp",
     adaptiveIcon: {
       foregroundImage: "./src/assets/images/splashscreen.png",
       backgroundColor: "#1F104A",

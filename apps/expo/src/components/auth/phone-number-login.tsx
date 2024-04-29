@@ -8,8 +8,8 @@ import {
 import { Formik } from "formik";
 import { toFormikValidationSchema } from "zod-formik-adapter";
 
-import type { SignInSchema } from "@pawrty/validation";
-import { signInSchema } from "@pawrty/validation";
+import type { SignInSchema } from "@acme/validation";
+import { signInSchema } from "@acme/validation";
 
 import Logo from "~/assets/icons/logo.svg";
 import { BRAND_HEX } from "~/constants";
@@ -38,7 +38,7 @@ export const PhoneNumberLoginScreen: React.FC = () => {
 
           <View className="w-full gap-2">
             <Text className="text-left text-[2.7rem] font-bold text-foreground">
-              Welcome to Pawrty!
+              Welcome to Acme!
             </Text>
             <Text className="text-left text-lg font-semibold text-foreground opacity-80">
               Enter your phone number to log in or sign up

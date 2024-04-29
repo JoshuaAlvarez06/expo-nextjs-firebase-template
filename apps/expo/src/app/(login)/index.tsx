@@ -39,7 +39,7 @@ const Landing = () => {
         <View className="h-full items-center justify-between">
           <View className="flex items-center justify-center gap-4 drop-shadow-2xl">
             <Logo width={100} height={100} />
-            <Text className="text-6xl font-bold text-white">PAWRTY</Text>
+            <Text className="text-6xl font-bold text-white">ACME</Text>
           </View>
           <Link href="/(login)/login" asChild>
             <TouchableOpacity className="w-full rounded-lg bg-primary py-4 shadow-xl">

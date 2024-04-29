@@ -9,9 +9,9 @@ import firebase from "firebase/compat/app";
 // Your web app's Firebase configuration
 const firebaseConfig: FirebaseOptions = {
   apiKey: "AIzaSyA_2nlhJVKGNflZIkybX8hPEDAz_8qugpc",
-  authDomain: "pawrty-dev.firebaseapp.com",
-  projectId: "pawrty-dev",
-  storageBucket: "pawrty-dev.appspot.com",
+  authDomain: "acme-dev.firebaseapp.com",
+  projectId: "acme-dev",
+  storageBucket: "acme-dev.appspot.com",
   messagingSenderId: "5973868113",
   appId: "1:5973868113:web:8acf630fc58e978e8c0270",
   measurementId: "G-DFL5HK8LK6"

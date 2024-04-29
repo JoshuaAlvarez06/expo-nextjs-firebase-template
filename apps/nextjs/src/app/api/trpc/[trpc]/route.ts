@@ -1,5 +1,5 @@
 import type { NextRequest } from "next/server";
-import { appRouter, createTRPCContext } from "@pawrty/api";
+import { appRouter, createTRPCContext } from "@acme/api";
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
 
 import { getAuthenticatedUser } from "~/utils/server";

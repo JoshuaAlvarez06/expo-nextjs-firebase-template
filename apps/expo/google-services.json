@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "5973868113",
-    "project_id": "pawrty-dev",
-    "storage_bucket": "pawrty-dev.appspot.com"
+    "project_id": "acme-dev",
+    "storage_bucket": "acme-dev.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:5973868113:android:b18fadde06146c5c8c0270",
         "android_client_info": {
-          "package_name": "app.pawrty.solydapp"
+          "package_name": "app.acme.solydapp"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "5973868113-etl34oma4s11g43olg404elpdcsj7k9m.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "app.pawrty.solydapp"
+                "bundle_id": "app.acme.solydapp"
               }
             }
           ]

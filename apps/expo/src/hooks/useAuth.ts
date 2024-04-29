@@ -5,7 +5,7 @@ import { useRouter } from "expo-router";
 import auth from "@react-native-firebase/auth";
 import { useMutation } from "@tanstack/react-query";
 
-import type { SignInSchema, VerifySchema } from "@pawrty/validation";
+import type { SignInSchema, VerifySchema } from "@acme/validation";
 
 import { AuthContext } from "~/providers";
 import { showToast } from "~/utils";

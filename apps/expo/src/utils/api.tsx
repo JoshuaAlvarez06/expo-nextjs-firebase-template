@@ -1,5 +1,5 @@
-import type { AppRouter } from "@pawrty/api";
-import type { User } from "@pawrty/db";
+import type { AppRouter } from "@acme/api";
+import type { User } from "@acme/db";
 import { useState } from "react";
 import Constants from "expo-constants";
 import auth from "@react-native-firebase/auth";
@@ -12,7 +12,7 @@ import superjson from "superjson";
  * A set of typesafe hooks for consuming your API.
  */
 export const api = createTRPCReact<AppRouter>();
-export { type RouterInputs, type RouterOutputs } from "@pawrty/api";
+export { type RouterInputs, type RouterOutputs } from "@acme/api";
 
 /**
  * Extend this function when going to production by

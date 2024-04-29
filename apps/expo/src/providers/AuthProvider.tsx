@@ -1,4 +1,4 @@
-import type { User } from "@pawrty/db";
+import type { User } from "@acme/db";
 import { createContext } from "react";
 
 export const AuthContext = createContext<{

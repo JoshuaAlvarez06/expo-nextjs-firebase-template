@@ -1,5 +1,5 @@
 {
-  "name": "@pawrty/expo",
+  "name": "@acme/expo",
   "version": "0.1.0",
   "private": true,
   "main": "expo-router/entry",
@@ -23,7 +23,7 @@
     "@react-native-firebase/auth": "^19.1.1",
     "@react-native-firebase/crashlytics": "^19.1.1",
     "@shopify/flash-list": "1.6.3",
-    "@pawrty/validation": "workspace:*",
+    "@acme/validation": "workspace:*",
     "@tanstack/react-query": "^5.28.6",
     "@trpc/client": "11.0.0-next.320",
     "@trpc/react-query": "11.0.0-next.320",
@@ -60,12 +60,12 @@
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
     "@babel/runtime": "^7.24.1",
-    "@pawrty/api": "workspace:*",
-    "@pawrty/db": "workspace:*",
-    "@pawrty/eslint-config": "workspace:*",
-    "@pawrty/prettier-config": "workspace:*",
-    "@pawrty/tailwind-config": "workspace:*",
-    "@pawrty/tsconfig": "workspace:*",
+    "@acme/api": "workspace:*",
+    "@acme/db": "workspace:*",
+    "@acme/eslint-config": "workspace:*",
+    "@acme/prettier-config": "workspace:*",
+    "@acme/tailwind-config": "workspace:*",
+    "@acme/tsconfig": "workspace:*",
     "@types/babel__core": "^7.20.5",
     "@types/react": "^18.2.69",
     "eslint": "^8.57.0",
@@ -77,12 +77,12 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@pawrty/eslint-config/base",
-      "@pawrty/eslint-config/react"
+      "@acme/eslint-config/base",
+      "@acme/eslint-config/react"
     ],
     "ignorePatterns": [
       "expo-plugins/**"
     ]
   },
-  "prettier": "@pawrty/prettier-config"
+  "prettier": "@acme/prettier-config"
 }

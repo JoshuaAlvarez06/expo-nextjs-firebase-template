@@ -1,6 +1,6 @@
 "use client";
 
-import type { AppRouter } from "@pawrty/api";
+import type { AppRouter } from "@acme/api";
 import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { loggerLink, unstable_httpBatchStreamLink } from "@trpc/client";
