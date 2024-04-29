@@ -1,0 +1,118 @@
+div.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow:
+    0 22px 156px rgb(113 113 142 / 8%),
+    0 9px 58px rgb(216 216 233 / 16%);
+  border: 1px solid hsl(var(--accent));
+  width: 400px;
+}
+.login-box h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.firebaseui-container {
+  background: none;
+  box-shadow: none;
+  margin: 0px;
+}
+.firebaseui-card-header {
+  padding: 0px;
+}
+.firebaseui-card-content {
+  padding: 0px;
+}
+h1.firebaseui-title {
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.firebaseui-recaptcha-wrapper {
+  margin-left: 0px;
+  padding-bottom: 0px;
+}
+.firebaseui-card-actions {
+  padding: 0px;
+  margin-top: 20px;
+}
+button.firebaseui-id-submit {
+  display: block;
+  padding: 10px 40px;
+  width: auto;
+  height: 42px;
+  border-radius: 5px;
+  margin: 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: none;
+  margin-bottom: 20px;
+  background-color: hsl(var(--primary)) !important;
+}
+button.firebaseui-id-submit:hover {
+  opacity: 0.9;
+  box-shadow:
+    0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%),
+    0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.firebaseui-form-actions {
+  display: block;
+  text-align: left;
+}
+.firebaseui-card-footer {
+  padding: 0px;
+  margin-top: 16px;
+}
+.firebaseui-container.firebaseui-page-provider-sign-in.firebaseui-id-page-provider-sign-in.firebaseui-use-spinner {
+  display: none;
+}
+a.firebaseui-link {
+  color: hsl(var(--primary)) !important;
+}
+button.firebaseui-id-secondary-link {
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  display: block;
+  text-align: left;
+  color: hsl(var(--accent));
+}
+button.firebaseui-id-secondary-link:hover {
+  background: none;
+  text-decoration: underline;
+  color: var(--accent-foreground);
+}
+.firebaseui-tos-list {
+  text-align: left;
+  padding-left: 0px;
+}
+div#firebaseui-auth-container form {
+  margin-left: 0px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 0px;
+}
+h1.firebaseui-title {
+  margin-top: 16px;
+  font-weight: 400;
+}
+@media (max-width: 900px) {
+  div.login-box {
+    width: 100%;
+    padding: 16px;
+    border: 0px;
+    box-shadow: none;
+  }
+}
