@@ -1,5 +1,5 @@
 {
-  "name": "@acme/api",
+  "name": "@acme/db",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -12,25 +12,23 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
-    "clean": "rm -rf .turbo node_modules",
     "format": "prettier --check . --ignore-path ../../.gitignore",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
-  },
-  "dependencies": {
-    "@acme/db": "workspace:*",
-    "@acme/validation": "workspace:*",
-    "@trpc/server": "11.0.0-next.320",
-    "superjson": "2.2.1",
-    "zod": "^3.22.4"
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+    "clean": "rm -rf .turbo node_modules",
+    "generate": "pnpm with-env prisma generate",
+    "push": "pnpm with-env prisma db push --skip-generate",
+    "dev": "pnpm with-env prisma studio --port 5556",
+    "with-env": "dotenv -e ../../.env --"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:*",
     "@acme/prettier-config": "workspace:*",
     "@acme/tsconfig": "workspace:*",
+    "dotenv-cli": "^7.4.1",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
+    "prisma": "^5.11.0",
     "typescript": "^5.4.3"
   },
   "eslintConfig": {
@@ -39,5 +37,11 @@
       "@acme/eslint-config/base"
     ]
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@acme/prettier-config",
+  "dependencies": {
+    "@prisma/client": "^5.11.0"
+  },
+  "prisma": {
+    "schema": "src/prisma/schema.prisma"
+  }
 }

@@ -27,10 +27,13 @@ export default function Verify() {
   const { verifyCode, signInWithPhoneNumber, isSigningIn } = useAuth();
 
   const onVerify = async ({ code }: VerifySchema) =>
-    await verifyCode({ confirmationId, code });
+    await verifyCode({ confirmationId: confirmationId!, code });
 
   const onResend = async () =>
-    await signInWithPhoneNumber({ phoneNumber, forceResend: true });
+    await signInWithPhoneNumber({
+      phoneNumber: phoneNumber!,
+      forceResend: true,
+    });
 
   return (
     <SafeAreaView className="bg-background">

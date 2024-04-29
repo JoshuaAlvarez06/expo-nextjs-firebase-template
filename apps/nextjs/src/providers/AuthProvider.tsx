@@ -1,9 +1,10 @@
 "use client";
 
 /* eslint-disable @typescript-eslint/no-misused-promises */
-import type { User } from "@acme/db";
 import { createContext, useEffect, useState } from "react";
 import nookies from "nookies";
+
+import type { User } from "@acme/db";
 
 import { auth } from "~/lib/firebase";
 import { api } from "~/trpc/react";

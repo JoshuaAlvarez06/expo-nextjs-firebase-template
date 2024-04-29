@@ -110,7 +110,7 @@ export default function Index() {
         options={{
           title: "Feed",
           headerRight: () => (
-            <Text onPress={signOut} className="text-primary">
+            <Text onPress={() => signOut()} className="text-primary">
               Logout
             </Text>
           ),

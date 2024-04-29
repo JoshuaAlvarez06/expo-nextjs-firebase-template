@@ -1,5 +1,6 @@
-import type { User } from "@acme/db";
 import { cookies, headers } from "next/headers";
+
+import type { User } from "@acme/db";
 import { prisma } from "@acme/db";
 
 import { firebaseAdmin } from "~/lib/firebaseAdmin";

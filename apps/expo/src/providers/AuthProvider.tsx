@@ -1,5 +1,6 @@
-import type { User } from "@acme/db";
 import { createContext } from "react";
+
+import type { User } from "@acme/db";
 
 export const AuthContext = createContext<{
   user: User | null;

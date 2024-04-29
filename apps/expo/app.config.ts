@@ -15,12 +15,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   assetBundlePatterns: ["**/*"],
   ios: {
     googleServicesFile: "./GoogleService-Info.plist",
-    bundleIdentifier: "app.acme.solydapp",
+    bundleIdentifier: "app.acme.acmeapp",
     supportsTablet: true,
   },
   android: {
     googleServicesFile: "./google-services.json",
-    package: "app.acme.solydapp",
+    package: "app.acme.acmeapp",
     adaptiveIcon: {
       foregroundImage: "./src/assets/images/splashscreen.png",
       backgroundColor: "#1F104A",
