@@ -1,5 +1,11 @@
 # Acme (create-t3-turbo)
 
+Upload Google services json files to get Firebase working in expo
+
+Fill in .env file with necessary vars
+
+Rename all instances of `acme`, `Acme`, and `ACME` to your designated app name
+
 > **Note**
 > Due to high demand, this repo now uses the `app` directory with some new experimental features. If you want to use the more traditional `pages` router, [check out the repo before the update](https://github.com/t3-oss/create-t3-turbo/tree/414aff131ca124573e721f3779df3edb64989fd4).
 
